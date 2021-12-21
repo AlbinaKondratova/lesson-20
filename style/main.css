@@ -36,13 +36,7 @@ body{
     top: 100px;
 }
 
-img{
-    position: absolute;
-    width: 131px;
-    height: 72px;
-    left: 200px;
-    top: 17px;
-}
+
 
 .line{
     position: absolute;
@@ -296,7 +290,7 @@ margin: 60px 0 0 20px;
 
 }
 
-.circle:focus {
+.circle:st {
      background: white;
     opacity: 100;
 
@@ -368,9 +362,150 @@ text-align: center;
     border-radius: 50%;
 
     
-
+    padding-bottom: 20px;
 }
 
 
+.main-inner3{
+    background-size: cover;
+    height: 2000px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.hotels{
+    
+
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 55px;
 
 
+color: #232323;
+
+margin: 100px 0 0 400px;
+
+}
+
+.arrow1, .arrow2{
+width: 50px;
+height: 50px;
+
+
+border: 1px solid #C6C6C6;
+box-sizing: border-box;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+border-radius: 50%;
+
+margin: 100px 0px 0 20px;
+
+
+}
+
+.arrow1{
+    margin: 100px 0 0 70px;
+}
+
+ .arrow1:hover{
+    border: 1px solid #454545;
+}
+
+.arrow2:hover{
+    border: 1px solid #454545;
+}
+
+.lines{
+    width: 237px;
+   height: 1px;
+
+
+background: #C4C4C4;
+
+margin: 125px;
+}
+
+.vseoteli{
+width: 140px;
+height: 45px;
+
+
+border: 1px solid #969696;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.vseoteli{
+    margin: 100px 0 0 -48px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+
+text-align: center;
+
+color: #969696;
+
+padding: 15px 0 0 0;
+}
+
+.main-two{
+    display: flex;
+    justify-content: space-around;
+}
+
+.two{
+    display: flex;
+}
+
+.tury{
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 55px;
+
+
+
+color: #232323;
+
+margin: 100px 0px 0 379px;
+}
+
+.lines2{
+    width: 340px;
+height: 1px;
+background: #C4C4C4;
+
+
+margin:125px 0 0 50px;
+}
+
+.vsetury{
+    width: 140px;
+height: 45px;
+
+
+border: 1px solid #969696;
+box-sizing: border-box;
+border-radius: 2px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+
+text-align: center;
+
+color: #969696;
+
+padding: 15px 0 0 0;
+
+margin: 100px 0 0 50px;
+}
